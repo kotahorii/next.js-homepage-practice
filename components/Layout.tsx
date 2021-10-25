@@ -5,7 +5,7 @@ import { ReactNode, VFC } from "react";
 
 type Props = {
   children: ReactNode;
-  title: string;
+  title?: string;
 };
 
 const Layout: VFC<Props> = ({ children, title = "HP by NEXT.js" }) => {
